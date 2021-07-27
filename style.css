@@ -280,7 +280,7 @@ body{
 .img-product8{
     background-image: url(images/product8.png);
 }
-.shopping-cart,.fa-eye,.fa-heart,.fa-arrows-alt-h{
+.shopping-cart,.fa-eye,.fa-heart,.fa-exchange-alt{
     border: 1px solid #dddddd;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -295,7 +295,7 @@ body{
 .fa-heart{
     padding: 9.5px 9.5px;
 }
-.fa-arrows-alt-h{
+.fa-exchange-alt{
     padding: 9.5px 9.5px;
 }
 .item-product:hover{
@@ -304,7 +304,7 @@ body{
 .item-product:hover .btn-product{
     display: block;
 }
-.shopping-cart:hover,.fa-eye:hover,.fa-heart:hover,.fa-arrows-alt-h:hover {
+.shopping-cart:hover,.fa-eye:hover,.fa-heart:hover,.fa-exchange-alt:hover {
     background-color: #dd2f31;
     color: #fff;
 }
