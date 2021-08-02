@@ -532,6 +532,9 @@ body{
     .item-product{
         width: 33.33333333333333%;
     }
+    .container-content,.text-footer1,.text-footer1{
+        padding: 0 15px;
+    }
 }
 @media screen and (max-width: 759px) {
     .dumbbells, .stregth, .power-rack-cages{
@@ -560,6 +563,9 @@ body{
 @media screen and (max-width: 431px) {
     .title-featured{
         padding-bottom: 47px;
+    }
+    .bottom-footer{
+        padding-left: 15px;
     }
 }
 @media screen and (max-width:375px) {
