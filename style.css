@@ -8,6 +8,8 @@ body{
     font-size: 13px;
     font-weight: 400;
     text-align: left;
+    overflow: hidden;
+    max-width: 100%;
 }
 .top-header{
     width: 100%;
@@ -571,7 +573,6 @@ body{
 @media screen and (max-width:375px) {
     .item-product{
         width: 100%;
-        padding: 0;
     }
     .footer2>div {
         width: 100%;
@@ -579,8 +580,8 @@ body{
     .title1-banner {
         font-size: 55px;
     }
-    .item-product:hover {
+    /* .item-product:hover {
         box-shadow: none;
-    }
+    } */
 
 }
