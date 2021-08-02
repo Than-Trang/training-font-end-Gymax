@@ -466,7 +466,6 @@ body{
 }
 @media screen and (max-width: 1024px) {
     .logo{
-        padding-left: 5px;
         padding-bottom: 5px;
     }
     .menu,.li-home:hover .home{
@@ -477,8 +476,8 @@ body{
         float: right;
         padding-top: 5px;
     }
-    .content-banner{
-        padding-left: 10px;
+    .content-banner,.footer2{
+        padding-left: 15px;
     }
     .nav-menu{
         display: block;
@@ -489,6 +488,7 @@ body{
     }
     .header{
         justify-content: space-between;
+        padding-left: 15px;
     }
     .nav-menu li a{
         color: #222;
@@ -572,6 +572,9 @@ body{
     }
     .title1-banner {
         font-size: 55px;
+    }
+    .item-product:hover {
+        box-shadow: none;
     }
 
 }
