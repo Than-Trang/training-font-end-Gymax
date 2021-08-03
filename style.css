@@ -207,8 +207,6 @@ body{
     max-width: 1170px;
     width: 100%;
     display: flex;
-    white-space: nowrap;
-    overflow-x: scroll;
 
 }
 .content{
@@ -580,6 +578,10 @@ body{
 @media screen and (max-width: 431px) {
     .bottom-footer{
         padding-left: 15px;
+    }
+    .title-content{
+        white-space: nowrap;
+        overflow-x: scroll;
     }
 }
 @media screen and (max-width:375px) {
