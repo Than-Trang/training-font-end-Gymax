@@ -263,7 +263,7 @@ body{
     font-weight: bold;
 }
 .img-product1,.img-product2,.img-product3,.img-product4,.img-product5,.img-product6,.img-product7,.img-product8{
-    height: 71%;
+    padding-bottom: 86%;
     width: 100%;
     display: flex;
     background-size: cover;
@@ -271,7 +271,7 @@ body{
 }
 .item-product>div{
     background-position-x: center;
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .img-product1{
