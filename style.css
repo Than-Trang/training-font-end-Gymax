@@ -471,6 +471,9 @@ body{
     .logo{
         padding-bottom: 5px;
     }
+    .nav-menu>.last-item-menu{
+        border-bottom: none;
+    }
     .menu,.li-home:hover .home{
         display: none;
     }
