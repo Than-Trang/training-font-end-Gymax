@@ -244,6 +244,7 @@ body{
     margin-right: 20px;
     margin-top: 12px;
     display: none;
+    background-color: #fff;
 }
 
 .text-product{
@@ -513,7 +514,7 @@ body{
     }
     .li-home:hover .item-home{
         display: block;
-        width: 100%;
+        width: 95%;
         background: #988484;
     }
     
