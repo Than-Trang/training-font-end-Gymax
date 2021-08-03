@@ -207,6 +207,8 @@ body{
     max-width: 1170px;
     width: 100%;
     display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
 
 }
 .content{
@@ -576,9 +578,6 @@ body{
     
 }
 @media screen and (max-width: 431px) {
-    .title-featured{
-        padding-bottom: 47px;
-    }
     .bottom-footer{
         padding-left: 15px;
     }
@@ -590,19 +589,16 @@ body{
     .footer2>div {
         width: 100%;
     }
-    .title1-banner {
-        font-size: 55px;
+    .title2-banner{
+        font-size: 30px;
     }
-    .title-featured {
-        padding-bottom: 45px;
+    .title1-banner {
+        font-size: 50px;
     }
     .content1{
         padding-left: 14.5px;
         padding-right: 14.25px;
         font-size: 16px;
     }
-    /* .item-product:hover {
-        box-shadow: none;
-    } */
 
 }
