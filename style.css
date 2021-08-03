@@ -8,7 +8,7 @@ body{
     font-size: 13px;
     font-weight: 400;
     text-align: left;
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 100%;
 }
 .top-header{
@@ -547,6 +547,9 @@ body{
     }
     .power-rack-cages{
         margin-top:5px ;
+    }
+    .menu-mobile{
+        transform: translate(0, 92px);
     }
     .item-product{
         width: 50%;
