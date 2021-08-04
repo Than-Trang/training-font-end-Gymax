@@ -237,7 +237,6 @@ body{
     padding-top: 40px;
 }
 .item-product{
-    height: 330px;
     width: 25%;
     padding: 10px;
 }
@@ -262,6 +261,7 @@ body{
 }
 .img-product1,.img-product2,.img-product3,.img-product4,.img-product5,.img-product6,.img-product7,.img-product8{
     padding-bottom: 86%;
+    height: 0;
     width: 100%;
     display: flex;
     background-size: cover;
@@ -490,6 +490,7 @@ body{
     }
     .content-banner,.footer2{
         padding-left: 15px;
+        padding-right: 15px;
     }
     .nav-menu{
         display: block;
@@ -578,6 +579,7 @@ body{
 @media screen and (max-width: 431px) {
     .bottom-footer{
         padding-left: 15px;
+        padding-right: 15px;
     }
     .title-content{
         white-space: nowrap;
